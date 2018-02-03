@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364C5F2C14B7280600B646CD /* VpingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C5F2B14B7280600B646CD /* VpingController.m */; };
+		364C5F3014B729FA00B646CD /* PingApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C5F2F14B729FA00B646CD /* PingApi.m */; };
+		364C5F3214B72B7800B646CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364C5F3114B72B7800B646CD /* SystemConfiguration.framework */; };
+		36F34C3414B7252B00F2C047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F34C3314B7252B00F2C047 /* Cocoa.framework */; };
+		36F34C3E14B7252B00F2C047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F34C3C14B7252B00F2C047 /* InfoPlist.strings */; };
+		36F34C4014B7252B00F2C047 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F34C3F14B7252B00F2C047 /* main.m */; };
+		36F34C4414B7252B00F2C047 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 36F34C4214B7252B00F2C047 /* Credits.rtf */; };
+		36F34C4714B7252B00F2C047 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F34C4614B7252B00F2C047 /* AppDelegate.m */; };
+		36F34C4A14B7252C00F2C047 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F34C4814B7252C00F2C047 /* MainMenu.xib */; };
+		36F34C5214B7252C00F2C047 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F34C5114B7252C00F2C047 /* SenTestingKit.framework */; };
+		36F34C5314B7252C00F2C047 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F34C3314B7252B00F2C047 /* Cocoa.framework */; };
+		36F34C5B14B7252C00F2C047 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36F34C5914B7252C00F2C047 /* InfoPlist.strings */; };
+		36F34C5E14B7252C00F2C047 /* VPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F34C5D14B7252C00F2C047 /* VPingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36F34C5414B7252C00F2C047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F34C2614B7252B00F2C047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F34C2E14B7252B00F2C047;
+			remoteInfo = VPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364C5F2A14B7280600B646CD /* VpingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpingController.h; sourceTree = "<group>"; };
+		364C5F2B14B7280600B646CD /* VpingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VpingController.m; sourceTree = "<group>"; };
+		364C5F2E14B729FA00B646CD /* PingApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingApi.h; sourceTree = "<group>"; };
+		364C5F2F14B729FA00B646CD /* PingApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingApi.m; sourceTree = "<group>"; };
+		364C5F3114B72B7800B646CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36F34C2F14B7252B00F2C047 /* VPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F34C3314B7252B00F2C047 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		36F34C3614B7252B00F2C047 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		36F34C3714B7252B00F2C047 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36F34C3814B7252B00F2C047 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36F34C3B14B7252B00F2C047 /* VPing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPing-Info.plist"; sourceTree = "<group>"; };
+		36F34C3D14B7252B00F2C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36F34C3F14B7252B00F2C047 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36F34C4114B7252B00F2C047 /* VPing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPing-Prefix.pch"; sourceTree = "<group>"; };
+		36F34C4314B7252B00F2C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		36F34C4514B7252B00F2C047 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36F34C4614B7252B00F2C047 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36F34C4914B7252C00F2C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36F34C5014B7252C00F2C047 /* VPingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F34C5114B7252C00F2C047 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		36F34C5814B7252C00F2C047 /* VPingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPingTests-Info.plist"; sourceTree = "<group>"; };
+		36F34C5A14B7252C00F2C047 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36F34C5C14B7252C00F2C047 /* VPingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPingTests.h; sourceTree = "<group>"; };
+		36F34C5D14B7252C00F2C047 /* VPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F34C2C14B7252B00F2C047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C5F3214B72B7800B646CD /* SystemConfiguration.framework in Frameworks */,
+				36F34C3414B7252B00F2C047 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F34C4C14B7252C00F2C047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F34C5214B7252C00F2C047 /* SenTestingKit.framework in Frameworks */,
+				36F34C5314B7252C00F2C047 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F34C2414B7252B00F2C047 = {
+			isa = PBXGroup;
+			children = (
+				364C5F3114B72B7800B646CD /* SystemConfiguration.framework */,
+				36F34C3914B7252B00F2C047 /* VPing */,
+				36F34C5614B7252C00F2C047 /* VPingTests */,
+				36F34C3214B7252B00F2C047 /* Frameworks */,
+				36F34C3014B7252B00F2C047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F34C3014B7252B00F2C047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C2F14B7252B00F2C047 /* VPing.app */,
+				36F34C5014B7252C00F2C047 /* VPingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F34C3214B7252B00F2C047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C3314B7252B00F2C047 /* Cocoa.framework */,
+				36F34C5114B7252C00F2C047 /* SenTestingKit.framework */,
+				36F34C3514B7252B00F2C047 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F34C3514B7252B00F2C047 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C3614B7252B00F2C047 /* AppKit.framework */,
+				36F34C3714B7252B00F2C047 /* CoreData.framework */,
+				36F34C3814B7252B00F2C047 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		36F34C3914B7252B00F2C047 /* VPing */ = {
+			isa = PBXGroup;
+			children = (
+				364C5F2E14B729FA00B646CD /* PingApi.h */,
+				364C5F2F14B729FA00B646CD /* PingApi.m */,
+				364C5F2A14B7280600B646CD /* VpingController.h */,
+				364C5F2B14B7280600B646CD /* VpingController.m */,
+				36F34C4514B7252B00F2C047 /* AppDelegate.h */,
+				36F34C4614B7252B00F2C047 /* AppDelegate.m */,
+				36F34C4814B7252C00F2C047 /* MainMenu.xib */,
+				36F34C3A14B7252B00F2C047 /* Supporting Files */,
+			);
+			path = VPing;
+			sourceTree = "<group>";
+		};
+		36F34C3A14B7252B00F2C047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C3B14B7252B00F2C047 /* VPing-Info.plist */,
+				36F34C3C14B7252B00F2C047 /* InfoPlist.strings */,
+				36F34C3F14B7252B00F2C047 /* main.m */,
+				36F34C4114B7252B00F2C047 /* VPing-Prefix.pch */,
+				36F34C4214B7252B00F2C047 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36F34C5614B7252C00F2C047 /* VPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C5C14B7252C00F2C047 /* VPingTests.h */,
+				36F34C5D14B7252C00F2C047 /* VPingTests.m */,
+				36F34C5714B7252C00F2C047 /* Supporting Files */,
+			);
+			path = VPingTests;
+			sourceTree = "<group>";
+		};
+		36F34C5714B7252C00F2C047 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F34C5814B7252C00F2C047 /* VPingTests-Info.plist */,
+				36F34C5914B7252C00F2C047 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F34C2E14B7252B00F2C047 /* VPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F34C6114B7252C00F2C047 /* Build configuration list for PBXNativeTarget "VPing" */;
+			buildPhases = (
+				36F34C2B14B7252B00F2C047 /* Sources */,
+				36F34C2C14B7252B00F2C047 /* Frameworks */,
+				36F34C2D14B7252B00F2C047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPing;
+			productName = VPing;
+			productReference = 36F34C2F14B7252B00F2C047 /* VPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36F34C4F14B7252C00F2C047 /* VPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F34C6414B7252C00F2C047 /* Build configuration list for PBXNativeTarget "VPingTests" */;
+			buildPhases = (
+				36F34C4B14B7252C00F2C047 /* Sources */,
+				36F34C4C14B7252C00F2C047 /* Frameworks */,
+				36F34C4D14B7252C00F2C047 /* Resources */,
+				36F34C4E14B7252C00F2C047 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F34C5514B7252C00F2C047 /* PBXTargetDependency */,
+			);
+			name = VPingTests;
+			productName = VPingTests;
+			productReference = 36F34C5014B7252C00F2C047 /* VPingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F34C2614B7252B00F2C047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 36F34C2914B7252B00F2C047 /* Build configuration list for PBXProject "VPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36F34C2414B7252B00F2C047;
+			productRefGroup = 36F34C3014B7252B00F2C047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F34C2E14B7252B00F2C047 /* VPing */,
+				36F34C4F14B7252C00F2C047 /* VPingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F34C2D14B7252B00F2C047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F34C3E14B7252B00F2C047 /* InfoPlist.strings in Resources */,
+				36F34C4414B7252B00F2C047 /* Credits.rtf in Resources */,
+				36F34C4A14B7252C00F2C047 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F34C4D14B7252C00F2C047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F34C5B14B7252C00F2C047 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F34C4E14B7252C00F2C047 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F34C2B14B7252B00F2C047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F34C4014B7252B00F2C047 /* main.m in Sources */,
+				36F34C4714B7252B00F2C047 /* AppDelegate.m in Sources */,
+				364C5F2C14B7280600B646CD /* VpingController.m in Sources */,
+				364C5F3014B729FA00B646CD /* PingApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F34C4B14B7252C00F2C047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F34C5E14B7252C00F2C047 /* VPingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36F34C5514B7252C00F2C047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F34C2E14B7252B00F2C047 /* VPing */;
+			targetProxy = 36F34C5414B7252C00F2C047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36F34C3C14B7252B00F2C047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F34C3D14B7252B00F2C047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36F34C4214B7252B00F2C047 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F34C4314B7252B00F2C047 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		36F34C4814B7252C00F2C047 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F34C4914B7252C00F2C047 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		36F34C5914B7252C00F2C047 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F34C5A14B7252C00F2C047 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F34C5F14B7252C00F2C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36F34C6014B7252C00F2C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36F34C6214B7252C00F2C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPing/VPing-Prefix.pch";
+				INFOPLIST_FILE = "VPing/VPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36F34C6314B7252C00F2C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPing/VPing-Prefix.pch";
+				INFOPLIST_FILE = "VPing/VPing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36F34C6514B7252C00F2C047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPing.app/Contents/MacOS/VPing";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPing/VPing-Prefix.pch";
+				INFOPLIST_FILE = "VPingTests/VPingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36F34C6614B7252C00F2C047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPing.app/Contents/MacOS/VPing";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPing/VPing-Prefix.pch";
+				INFOPLIST_FILE = "VPingTests/VPingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F34C2914B7252B00F2C047 /* Build configuration list for PBXProject "VPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F34C5F14B7252C00F2C047 /* Debug */,
+				36F34C6014B7252C00F2C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F34C6114B7252C00F2C047 /* Build configuration list for PBXNativeTarget "VPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F34C6214B7252C00F2C047 /* Debug */,
+				36F34C6314B7252C00F2C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F34C6414B7252C00F2C047 /* Build configuration list for PBXNativeTarget "VPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F34C6514B7252C00F2C047 /* Debug */,
+				36F34C6614B7252C00F2C047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F34C2614B7252B00F2C047 /* Project object */;
+}
