@@ -9,18 +9,10 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>36687D2B14CBC3FA004DC11F</key>
+		<key>EncodeEngineTests.xcscheme</key>
 		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>36687D4C14CBC3FB004DC11F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
